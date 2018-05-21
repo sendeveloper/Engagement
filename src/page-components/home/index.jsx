@@ -12,7 +12,6 @@ const App = () => (
     <Navigation/>
     <div>
       <h1>Headline</h1>
-      <a className={styles.redButton}>asdf</a>
       <HomeContent />
     </div>
   </div>

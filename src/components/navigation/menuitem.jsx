@@ -3,10 +3,12 @@ import {Link} from 'react-router-dom';
 
 import SubMenu from './submenu';
 
+import menuStyle from './menu.sass';
+
 class MenuItem extends React.Component {
 	render() {
 		return (
-			<li className={this.props.active ? 'active' : ''}>
+			<li className={this.props.active ? menuStyle.active : ''}>
 				<a href={this.props.data.url}>
 					{this.props.data.name}
 				</a>

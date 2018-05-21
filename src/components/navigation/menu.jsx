@@ -4,12 +4,14 @@ import {Link} from 'react-router-dom';
 import MenuItem from './menuitem';
 import menudata from './menudata.json';
 
+import menuStyle from './menu.sass';
+
 class Menu extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className={menuStyle.navbar}>
 				<h3>Engagement</h3>
-				<ul>
+				<ul className={menuStyle.menu}>
 				{
 					menudata.length ? (
 						menudata.map((each, i) => (

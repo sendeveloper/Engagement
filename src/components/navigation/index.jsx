@@ -9,7 +9,7 @@ import styles from './index.sass';
 const Navigation = () => (
   <div>
     <MiniNavBar />
-    <Menu className={styles.submenu}/>
+    <Menu/>
   </div>
 );
 
