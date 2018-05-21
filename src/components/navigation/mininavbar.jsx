@@ -23,7 +23,7 @@ class MiniNavBar extends React.Component {
               <img src={user} className="small-img"/>
             </a>
           </li>
-
+        </ul>
 		  </div>
 		)
 	}
