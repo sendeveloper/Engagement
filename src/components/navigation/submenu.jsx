@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import SubMenuItem from './submenuitem';
-import subMenuStyle from './submenu.sass';
 
 class SubMenu extends React.Component {
 	render() {
@@ -10,7 +9,7 @@ class SubMenu extends React.Component {
 			<React.Fragment>
 			{
 				this.props.data.length ? (
-					<ul className={subMenuStyle.submenu}>
+					<ul className="submenu">
 					{
 						this.props.data.map((each, i) => (
 							<SubMenuItem data={each} key={i} />
